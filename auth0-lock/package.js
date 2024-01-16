@@ -14,7 +14,7 @@ Npm.depends({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.6.1');
+  api.versionsFrom('2.6');
   api.use(['ecmascript', 'accounts-base', 'accounts-oauth', 'underscore']);
   api.mainModule('auth0-lock-server.js', 'server');
   api.mainModule('auth0-lock-client.js', 'client');
